@@ -9,15 +9,13 @@
 </head>
 
 <body>
-
- <h2 class="name">Student Name</h2>
-
-  <div class="nav-bar">
-   <ul>
-    <li class="nav-links"><a href="#">HOME</a></li>
-    <li class="nav-links"><a href="#">PORTFOLIO</a></li>
-    <li class="nav-links"><a href="#">CONTACT</a></li>
-   </ul>
+  <div class="top-nav">
+   <h2 class="name">Student Name</h2>
+    <ul>
+     <li class="nav-links"><a href="#">HOME</a></li>
+     <li class="nav-links"><a href="#">PORTFOLIO</a></li>
+     <li class="nav-links"><a href="#">CONTACT</a></li>
+    </ul>
   </div>
  
   <header>
@@ -27,46 +25,47 @@
    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt provident quisquam dignissimos numquam maiores quam, hic architecto a error consectetur iure laudantium dolorem qui recusandae molestias. Perferendis, reiciendis omnis.</p>
   </header>
 
-  <main>
+  <main class="container clearfix">
 
    <h2 class="nav-links">PORTFOLIO</h2>
 
-   <div class="card">
+   <div class="col card1">
     <img src="images/portfolio-1.png" alt="marketing image">
     <h4 class="card-title">Marketing page</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
    </div>
 
-   <div class="card">
+   <div class="col card2">
     <img src="images/portfolio-2.png" alt="Search page image" class="portfolio-image">
     <h4 class="card-title">Search Page</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
    </div>
 
-<div class="card">
+<div class="col card3">
 <img src="images/portfolio-3.png" alt="Travel app image" class="portfolio-image">
 <h4 class="card-title">Travel App</h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
 </div>
 
-<div class="card">
+<div class="col card4">
 <img src="images/portfolio-4.png" alt="Map of favourites sports image" class="portfolio-image">
 <h4 class="card-title">Map of Favourites Sports</h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
 </div>
 
-<div class="card">
+<div class="col card5">
 <img src="images/portfolio-5.png" alt="Photo gallery image" class="portfolio-image">
 <h4 class="card-title">Photo Gallery</h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
 </div>
 
-<div class="card">
+<div class="col card6">
 <img src="images/portfolio-6.png" alt="Calculator image" class="portfolio-image">
 <h4 class="card-title">Calculator</h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis laborum facere harum necessitatibus quisquam error nesciunt voluptas doloribus? Delectus voluptatem natus impedit esse tenetur quam culpa explicabo dolore iusto?</p>
 </div>
 </main>
+
 <section class="card">
 <h4 class="">Contact</h4>
 <p class="bio">if you're intersted on more information about what i'm working on<br>i'd love to hear from you!</p>
@@ -76,11 +75,14 @@
 </ul>
 </section>
 <hr>
-<footer>
-    <div class="footer-buttons">
-        <h2 class="name" class="inline">Student name</h2>
-        <span class="inline">BACK TO TOP</span>
-        </div>
-</footer>
+    <footer>
+        <h2>Student Name</h2>
+        <ul class="footer-nav">
+          <li class="top"><a href="#top">back to top</a></li>
+          <li class="full"><a href="#top">home</a></li>
+          <li class="full"><a href="#portfolio">portfolio</a></li>
+          <li class="full"><a href="#contact">contact</a></li>
+        </ul>
+      </footer>
 </body>
 </html>
